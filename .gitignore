@@ -1,0 +1,8 @@
+# Qt/QML cache
+*.qmlc
+*.jsc
+
+# Editor and OS files
+.DS_Store
+*.swp
+*~

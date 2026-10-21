@@ -1,0 +1,26 @@
+{
+    "Caffeine": {
+	"Caffeine": "Cafeína"
+    },
+    "Keeps your screen awake with one click": {
+	"Keeps your screen awake with one click": "Mantiene tu pantalla encendida con un clic"
+    },
+    "Show status toasts": {
+        "Show status toasts": "Mostrar avisos de estado"
+    },
+    "Show a notification when Caffeine is toggled": {
+        "Show a notification when Caffeine is toggled": "Mostrar una notificación al activar o desactivar Cafeína."
+    },
+    "Active": {
+        "Active": "Activo"
+    },
+    "Inactive": {
+        "Inactive": "Inactivo"
+    },
+    "Caffeine enabled": {
+        "Caffeine enabled": "Cafeína activada"
+    },
+    "Caffeine disabled": {
+        "Caffeine disabled": "Cafeína desactivada"
+    }
+}

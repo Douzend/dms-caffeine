@@ -1,0 +1,14 @@
+{
+    "id": "caffeine",
+    "name": "Caffeine",
+    "description": "Keeps your screen awake with one click",
+    "version": "0.1.0",
+    "author": "Douzend",
+    "icon": "coffee",
+    "type": "widget",
+    "component": "./CaffeineWidget.qml",
+    "settings": "./CaffeineSettings.qml",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "permissions": ["settings_read", "settings_write"],
+    "requires_dms": ">=1.6.3"
+}
