@@ -23,11 +23,12 @@ PluginComponent {
     ccWidgetIsActive: root.active
 
     function toggle() {
+	var wasActive = root.active
 	SessionService.toggleIdleInhibit()
 	if (root.showToasts)
-	    ToastService.showInfo(root.active 
-	    ? I18n.trFor("caffeine", "Caffeine enabled") 
-	    : I18n.trFor("caffeine", "Caffeine disabled"))
+	    ToastService.showInfo(wasActive
+	    ? I18n.trFor("caffeine", "Caffeine disabled")
+	    : I18n.trFor("caffeine", "Caffeine enabled"))
 
     }
     
